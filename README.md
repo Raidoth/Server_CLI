@@ -17,5 +17,5 @@ make build
 ```
 Start client
 ```
-./bin/client -str=<string> -url<http://localhost:9000/api/substring>
+./bin/client -str=<string> -url=<http://localhost:9000/api/substring>
 ```
