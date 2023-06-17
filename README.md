@@ -1,7 +1,7 @@
 # Server_CLI
 ## Server
 
-#uild Image
+Build Image
 ```
 docker build -t server .
 ```
@@ -11,7 +11,7 @@ docker run -p 9000:9000 server
 ```
 ## Client
 
-#uild client
+Build client
 ```
 make build
 ```
