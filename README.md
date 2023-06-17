@@ -1,26 +1,21 @@
 # Server_CLI
 ## Server
 
-##Build Image
+#uild Image
 ```
 docker build -t server .
 ```
-##Start docker
+Start docker
 ```
 docker run -p 9000:9000 server
 ```
 ## Client
 
-##Build client
+#uild client
 ```
 make build
 ```
-## Start client
+Start client
 ```
 ./bin/client -str=<string> -url<http://localhost:9000/api/substring>
-```
-## Testing
-```
-cd test
-go test -v
 ```
